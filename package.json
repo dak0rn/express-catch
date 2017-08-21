@@ -1,0 +1,35 @@
+{
+    "name": "express-catch",
+    "version": "1.0.0",
+    "description": "Error propagation for express.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "tape tests.js"
+    },
+    "engines": {
+        "node": ">=6.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dak0rn/express-catch.git"
+    },
+    "keywords": [
+        "express",
+        "catch",
+        "async",
+        "await",
+        "error",
+        "handling",
+        "try"
+    ],
+    "author": "Daniel Koch",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/dak0rn/express-catch/issues"
+    },
+    "homepage": "https://github.com/dak0rn/express-catch#readme",
+    "devDependencies": {
+        "prettier": "^1.5.3",
+        "tape": "^4.8.0"
+    }
+}
