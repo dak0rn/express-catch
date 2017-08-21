@@ -32,6 +32,7 @@ router.post('/', function() {
     return Promise.reject();
 });
 
+// Using `server` here! See notes.
 server.use(function(err, req, res, next) {
     // Error handling
 });
